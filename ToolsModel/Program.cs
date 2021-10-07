@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace ToolsModel
 {
     class Program
@@ -12,6 +11,12 @@ namespace ToolsModel
             Console.WriteLine("||===================================||");
             Console.WriteLine("||========   Hello C#   =============||");
             Console.WriteLine("||===================================||");
+            Fork();
         }
+
+        public static void Fork(){
+            Console.WriteLine("||===========測試顯示功能==============||");
+        }
+
     }
 }
